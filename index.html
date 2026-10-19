@@ -31,7 +31,7 @@
         <li><a href="#pour-qui">Pour qui</a></li>
         <li><a href="#differenciateurs">Plus-value</a></li>
         <li><a href="#offres">Offres</a></li>
-        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -56,7 +56,7 @@
     <li><a href="#pour-qui" data-nav-close>Pour qui</a></li>
     <li><a href="#differenciateurs" data-nav-close>Plus-value</a></li>
     <li><a href="#offres" data-nav-close>Offres</a></li>
-    <li><a href="#technologies" data-nav-close>Technologies</a></li>
+    <li><a href="#realisations" data-nav-close>Réalisations</a></li>
     <li><a href="#contact" data-nav-close>Contact</a></li>
   </ul>
   <a href="#contact" class="btn btn--primary mobile-nav__cta" data-nav-close>Nous contacter</a>
@@ -157,15 +157,24 @@
     <div class="wrap">
       <div class="section-head" data-reveal>
         <span class="eyebrow">Par qui</span>
-        <div class="par-qui__row">
-          <h2>Une alliance entre deux expertises complémentaires</h2>
-          <div class="partner-logos">
-            <a href="https://dynartio.com" target="_blank" rel="noopener noreferrer" class="partner-logo-card partner-logo-card--primary" data-reveal aria-label="Site de Dynartio">
-              <img src="./assets/logo-dynartio.svg" alt="Dynartio" loading="lazy" />
-            </a>
-            <a href="https://terriflux.com" target="_blank" rel="noopener noreferrer" class="partner-logo-card partner-logo-card--secondary" data-reveal aria-label="Site de Terriflux">
-              <img src="./assets/logo-terriflux.png" alt="Terriflux" loading="lazy" />
-            </a>
+        <h2>Une alliance entre deux expertises complémentaires</h2>
+      </div>
+
+      <div class="team">
+        <figure class="team__photo" data-reveal>
+          <img src="./assets/equipe-angouleme.jpg" alt="Les fondateurs de Dynartio et de Terriflux devant les lettres d'Angoulême" loading="lazy" />
+          <figcaption>Dynartio et Terriflux à Angoulême, mai 2025</figcaption>
+        </figure>
+        <div class="team__text">
+          <div class="team__member team__member--primary" data-reveal>
+            <img src="./assets/logo-dynartio.svg" alt="Dynartio" loading="lazy" />
+            <p>Bureau d'études en économie circulaire, Dynartio déploie et anime des observatoires territoriaux avec Sinamet, sa plateforme libre : annuaire des acteurs, fiches, cartes, articles. Dans FilObsys, Dynartio porte la plateforme et l'animation de la filière.</p>
+            <a href="https://dynartio.com" target="_blank" rel="noopener noreferrer">dynartio.com</a>
+          </div>
+          <div class="team__member team__member--secondary" data-reveal>
+            <img src="./assets/logo-terriflux.png" alt="Terriflux" loading="lazy" />
+            <p>Entreprise deeptech issue de dix ans de recherche, Terriflux cartographie les flux des filières et édite OpenSankey, l'outil de réconciliation et de visualisation. Dans FilObsys, Terriflux porte les données, la réconciliation et les diagrammes.</p>
+            <a href="https://terriflux.com" target="_blank" rel="noopener noreferrer">terriflux.com</a>
           </div>
         </div>
       </div>
@@ -215,6 +224,40 @@
     </div>
   </section>
 
+  <!-- ============================= DEROULEMENT ============================= -->
+  <section id="deroulement">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Concrètement</span>
+        <h2>Quatre étapes, de vos données à la décision</h2>
+        <p>Un observatoire ne se livre pas une fois : les deux premières étapes se rejouent à chaque campagne, les deux dernières font vivre la filière entre deux.</p>
+      </div>
+
+      <ol class="steps" role="list">
+        <li class="step" data-reveal>
+          <span class="step__num">1</span>
+          <h3>Collecte</h3>
+          <p>Recueil de vos données et de celles de vos partenaires : déclarations, bases publiques, enquêtes, études existantes.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">2</span>
+          <h3>Consolidation</h3>
+          <p>Mise en qualité, réconciliation sous contraintes, estimation des données manquantes : un bilan de flux cohérent et sourcé.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">3</span>
+          <h3>Mise en récit</h3>
+          <p>Cartes, Sankey, indicateurs, fiches acteurs ; des restitutions pour vos adhérents, vos élus, les pouvoirs publics.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">4</span>
+          <h3>Aide à la décision</h3>
+          <p>Scénarios, dimensionnement, animation de la filière : l'observatoire devient l'outil commun des acteurs.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
   <!-- ============================= OFFRES ============================= -->
   <section id="offres" style="background: var(--color-surface-offset)">
     <div class="wrap">
@@ -254,44 +297,43 @@
     </div>
   </section>
 
-  <!-- ============================= TECHNOLOGIES ============================= -->
-  <section id="technologies">
+  <!-- ============================= REALISATIONS ============================= -->
+  <section id="realisations">
     <div class="wrap">
       <div class="section-head" data-reveal>
-        <span class="eyebrow">Nos technologies</span>
-        <h2>Un socle open source</h2>
+        <span class="eyebrow">Réalisations</span>
+        <h2>Ce sur quoi FilObsys s'appuie</h2>
+        <p>Des observatoires en service chez Dynartio, des cartographies de filière publiées par Terriflux : les deux briques de l'offre, déjà à l'œuvre.</p>
       </div>
 
-      <div class="tech-grid">
-        <div class="tech-card tech-card--primary" data-reveal>
-          <span class="tech-card__icon tech-card__icon--logo">
-            <img src="./assets/logo-sinamet.svg" alt="Sinamet" loading="lazy" />
+      <div class="real-grid">
+        <a class="real-card" href="https://ofalim.fr" target="_blank" rel="noopener noreferrer" data-reveal>
+          <span class="real-card__thumb"><img src="./assets/realisations/ofalim.jpg" alt="Page d'accueil de l'observatoire OFALIM" loading="lazy" /></span>
+          <span class="real-card__body">
+            <span class="real-card__tag">Observatoire · Sinamet</span>
+            <h3>OFALIM, Vosges</h3>
+            <p>L'observatoire des flux alimentaires territorialisés, créé en 2023 avec le Pays de la Déodatie et INRAE : annuaire des acteurs, produits, débouchés.</p>
           </span>
-          <h3>Sinamet OpenSource</h3>
-          <p>Structure et trace vos données : un modèle commun pour rassembler des sources hétérogènes en un bilan de flux cohérent et documenté.</p>
-          <a href="https://dynartio.com/sinamet/" target="_blank" rel="noopener noreferrer" class="tech-card__link">
-            En savoir plus
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-        </div>
-        <div class="tech-card tech-card--secondary" data-reveal>
-          <span class="tech-card__icon tech-card__icon--logo">
-            <img src="./assets/logo-opensankey.png" alt="OpenSankey" loading="lazy" />
+        </a>
+        <a class="real-card" href="https://terriflux.com/portfolios/SOCLE/" target="_blank" rel="noopener noreferrer" data-reveal>
+          <span class="real-card__thumb"><img src="./assets/realisations/socle.jpg" alt="Diagramme de Sankey des flux de la filière pomme de terre en France" loading="lazy" /></span>
+          <span class="real-card__body">
+            <span class="real-card__tag">Cartographie · OpenSankey</span>
+            <h3>SOCLE, filières agricoles</h3>
+            <p>Toute l'agriculture française flux par flux, de la récolte aux débouchés, quatorze filières, avec les instituts techniques et FranceAgriMer.</p>
           </span>
-          <h3>OpenSankey</h3>
-          <p>Visualise les flux : diagrammes Sankey interactifs, cartes et exports prêts à intégrer dans vos rapports et présentations.</p>
-          <a href="https://open-sankey.fr/?lng=fr&amp;utm_source=terriflux.com" target="_blank" rel="noopener noreferrer" class="tech-card__link">
-            En savoir plus
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-        </div>
+        </a>
+        <a class="real-card" href="https://terriflux.com/portfolios/cartofob/" target="_blank" rel="noopener noreferrer" data-reveal>
+          <span class="real-card__thumb"><img src="./assets/realisations/cartofob.jpg" alt="Sankey des flux de bois posé sur la carte d'une région" loading="lazy" /></span>
+          <span class="real-card__body">
+            <span class="real-card__tag">Carte et Sankey · OpenSankey</span>
+            <h3>CARTOFOB, forêt-bois</h3>
+            <p>Les flux de bois région par région sur la carte, reconstruits automatiquement depuis les données de l'IGN. La lecture que FilObsys généralise.</p>
+          </span>
+        </a>
       </div>
 
-      <div class="tech-badges" data-reveal>
-        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>0 frais de licence</span>
-        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>0 dépendance éditeur</span>
-        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Souveraineté des données</span>
-      </div>
+      <p class="real-note" data-reveal>Socle logiciel : <a href="https://dynartio.com/sinamet/" target="_blank" rel="noopener noreferrer">Sinamet</a> pour les données, les acteurs et le contenu ; <a href="https://open-sankey.fr/?lng=fr" target="_blank" rel="noopener noreferrer">OpenSankey</a> pour les flux, la carte et les exports. Deux outils dont le cœur est publié en logiciel libre.</p>
     </div>
   </section>
 
@@ -331,11 +373,11 @@
         <span class="eyebrow">Ils nous font confiance</span>
       </div>
       <div class="trust__grid">
-        <span class="trust__item">INRAE</span>
-        <span class="trust__item">FranceAgriMer</span>
-        <span class="trust__item">ADEME</span>
-        <span class="trust__item">CNRS</span>
-        <span class="trust__item">IGN</span>
+        <a class="trust__logo" href="https://www.inrae.fr/" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/inrae.png" alt="INRAE" loading="lazy" /></a>
+        <a class="trust__logo" href="https://www.franceagrimer.fr/" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/franceagrimer.png" alt="FranceAgriMer" loading="lazy" /></a>
+        <a class="trust__logo" href="https://www.ademe.fr/" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/ademe.png" alt="ADEME" loading="lazy" /></a>
+        <a class="trust__logo" href="https://www.cnrs.fr/" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/cnrs.png" alt="CNRS" loading="lazy" /></a>
+        <a class="trust__logo" href="https://www.ign.fr/" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/ign.png" alt="IGN" loading="lazy" /></a>
       </div>
     </div>
   </section>
