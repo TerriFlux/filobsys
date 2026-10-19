@@ -3,7 +3,7 @@
 Site statique de présentation de **FilObsys**, l'observatoire de filière proposé par
 [Dynartio](https://dynartio.com) et [TerriFlux](https://terriflux.com).
 
-- Page publiée par GitHub Pages : https://terriflux.github.io/filobsys/
+- Site de l'offre : https://filobsys.fr (hébergé par Dynartio chez o2switch) ; copie de travail GitHub Pages : https://terriflux.github.io/filobsys/
 - Contact : contact@filobsys.fr
 
 ## Contenu du dépôt
